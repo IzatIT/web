@@ -1,4 +1,5 @@
 import CustomLayout from "components/open-part/custom-layout"
+import Head from "next/head"
 
 export const metadata = {
   title: 'Next.js',
@@ -12,6 +13,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <Head >
+        <title>Главная страница</title>
+      </Head>
       <body>
         <CustomLayout>
           {children}
