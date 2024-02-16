@@ -49,3 +49,11 @@
     @apply w-full h-[180px] p-6 capitalize rounded-lg resize-none;
   }
 }
+
+
+.mantine-Accordion-control:hover{
+  background: transparent !important;
+}
+.mantine-Accordion-chevron{
+  color: white;
+}

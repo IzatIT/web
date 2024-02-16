@@ -1,34 +1,29 @@
 "use client"
 import Link from "next/link";
 import {
-  RiYoutubeLine,
   RiInstagramLine,
   RiFacebookLine,
   RiDribbbleLine,
   RiBehanceLine,
-  RiPinterestLine
+  RiPinterestLine,
+  RiWhatsappLine
 } from 'react-icons/ri'
+import { IoLocationOutline } from 'react-icons/io5'
 
 const Socials = () => {
   return (
-    <div className="flex items-center gap-x-5 text-lg ">
-      <Link href={''} className="hover:text-accent transition-all duration-300">
-        <RiYoutubeLine />
-      </Link>
-      <Link href={''} className="hover:text-accent transition-all duration-300">
+    <div className="flex items-center gap-x-5 text-lg mr-12">
+      <Link href={'https://www.facebook.com/profile.php?id=61555034791155&mibextid=ZbWKwL'} className="hover:text-accent transition-all duration-300">
         <RiFacebookLine />
       </Link>
-      <Link href={''} className="hover:text-accent transition-all duration-300">
+      <Link href={'https://www.instagram.com/star_line2024?igsh=MTc1NG1zMnUyYnM0eQ=='} className="hover:text-accent transition-all duration-300">
         <RiInstagramLine />
       </Link>
-      <Link href={''} className="hover:text-accent transition-all duration-300">
-        <RiDribbbleLine />
+      <Link href={'https://wa.me/996999933988'} className="hover:text-accent transition-all duration-300">
+        <RiWhatsappLine />
       </Link>
-      <Link href={''} className="hover:text-accent transition-all duration-300">
-        <RiBehanceLine />
-      </Link>
-      <Link href={''} className="hover:text-accent transition-all duration-300">
-        <RiPinterestLine />
+      <Link href={'https://maps.app.goo.gl/g7EqCxq4t3cnanMg7'} className="hover:text-accent transition-all duration-300">
+        <IoLocationOutline />
       </Link>
     </div>
   )

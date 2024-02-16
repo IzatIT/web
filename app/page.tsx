@@ -16,7 +16,7 @@ const Home = () => {
             initial='hidden'
             animate='show'
             exit='hidden'
-            className="h1">Transforming Ideas <br /> Into <span className="text-accent">Digital Reality</span>
+            className="h1">Добро пожаловать <br /> в <span className="text-accent">StarLine</span>
           </motion.h1>
           <motion.p
             variants={fadeIn('down', 0.3)}
@@ -24,9 +24,10 @@ const Home = () => {
             animate='show'
             exit='hidden'
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam,
-            incidunt error nesciunt vel nam sed itaque facere eum delectus tempora
-            ea nobis illum minus impedit ex corporis dolorem quo ipsam.
+            Мы создаем уникальные решения для [описание вашей деятельности/продукта].
+            Наша цель - обеспечить клиентов [описание преимуществ вашего продукта/услуги].
+            Используя инновационные технологии и экспертные знания, мы гарантируем
+            [описание ожидаемых результатов].
           </motion.p>
           <div className="flex justify-center xl:hidden relative">
             <ProjectsBtn />

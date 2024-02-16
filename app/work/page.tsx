@@ -1,9 +1,10 @@
 "use client"
-import WorkSlider from 'components/open-part/work-slider';
 import Bulb from 'components/open-part/bulb';
 import Circles from 'components/open-part/circles';
 import { motion } from 'framer-motion'
+import WorkSlider from 'components/open-part/work-slider';
 import { fadeIn } from 'variants'
+import works from 'public/datas/works.json'
 
 const Work = () => {
   return (
@@ -18,16 +19,15 @@ const Work = () => {
               animate='show'
               exit='hidden'
               className='h2 xl:mt-12'>
-              My work <span className='text-accent'>.</span>
+              Продукты<span className='text-accent'>.</span>
             </motion.h2>
             <motion.p
               variants={fadeIn('up', 0.4)}
               initial='hidden'
               animate='show'
               exit='hidden'
-              className='mb-4 max-w-[400px] mx-auto lg:mx-0'>
-              Lorem,  voluptas neque dolorum, nisi fugit veniam, facere a? Accusantium officiis
-              distinctio pariatur fuga? Provident nihil odio illo debitis nemo?
+              className='mb-4 max-w-[400px] text-sm mx-auto lg:mx-0'>
+              STAR LINE" - это инновационная компания, специализирующаяся на производстве капсульных домов в Кыргызстане. Наши капсульные дома представляют собой современные и стильные жилища, которые сочетают в себе удобство, функциональность и экологичность. Мы стремимся создавать пространства, в которых каждый чувствует себя комфортно и защищенно. Наша команда постоянно работает над внедрением новых технологий и инноваций, чтобы обеспечить нашим клиентам лучшие решения для их жилищных потребностей. Вместе с "STAR LINE" вы можете воплотить свои мечты в реальность и создать свой идеальный дом!
             </motion.p>
           </div>
           <motion.div

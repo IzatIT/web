@@ -26,12 +26,12 @@ export default function CustomLayout({
             <TopLeftImg />
             <Nav />
             <Header />
-            {/* <AnimatePresence mode='wait'> */}
-            <motion.div key={pathname} className='h-full'>
-                <Transition />
-                {children}
-            </motion.div>
-            {/* </AnimatePresence> */}
+            <AnimatePresence mode='wait'>
+                <motion.div key={pathname} className='h-full'>
+                    <Transition />
+                    {children}
+                </motion.div>
+            </AnimatePresence>
         </div >
     )
 }

@@ -12,18 +12,18 @@ import {
 
 // nav data
 export const navData = [
-  { name: 'home', path: '/', icon: <HiHome /> },
-  { name: 'about', path: '/about', icon: <HiUser /> },
-  { name: 'services', path: '/services', icon: <HiRectangleGroup /> },
-  { name: 'work', path: '/work', icon: <HiViewColumns /> },
+  { name: 'Главная', path: '/', icon: <HiHome /> },
+  { name: 'О_нас', path: '/about', icon: <HiUser /> },
+  { name: 'Часто задаваемые вопросы', path: '/common-questions', icon: <HiRectangleGroup /> },
+  { name: 'Продукты', path: '/work', icon: <HiViewColumns /> },
   {
-    name: 'testimonials',
+    name: 'Отзывы',
     path: '/testimonials',
     icon: <HiChatBubbleBottomCenterText />,
   },
   {
-    name: 'contact',
-    path: '/contact',
+    name: 'Отзыв',
+    path: '/feedback',
     icon: <HiEnvelope />,
   },
 ];
