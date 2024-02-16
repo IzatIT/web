@@ -16,6 +16,7 @@ export default function RootLayout({
       <head>
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />
         <title>StarLine</title>
+        <meta name="google-site-verification" content="xF0Ftiq1X6HXkoqanwVe1GmhyCElbsyQ391lwOoiut8" />
       </head>
       <body>
         <CustomLayout>
