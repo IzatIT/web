@@ -15,14 +15,14 @@ export const navData = [
   { name: 'Главная', path: '/', icon: <HiHome /> },
   { name: 'О_нас', path: '/about', icon: <HiUser /> },
   { name: 'Часто задаваемые вопросы', path: '/common-questions', icon: <HiRectangleGroup /> },
-  { name: 'Продукты', path: '/work', icon: <HiViewColumns /> },
+  { name: 'Продукты', path: '/products', icon: <HiViewColumns /> },
   {
     name: 'Отзывы',
     path: '/testimonials',
     icon: <HiChatBubbleBottomCenterText />,
   },
   {
-    name: 'Отзыв',
+    name: 'Сообщение',
     path: '/feedback',
     icon: <HiEnvelope />,
   },

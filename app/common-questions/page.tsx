@@ -10,7 +10,7 @@ const CommonQuestions = () => {
     <div className='bg-primary/30 py-36 flex items-center'>
       <Circles />
       <div className='container mx-auto'>
-        <Accordion w="80%">
+        <Accordion w={{ base: "100%", md: "80%" }}>
           {
             commonQuestions.map(el => (
               <Accordion.Item value={el.question}>

@@ -28,7 +28,7 @@ const WorkSlider = () => {
           <SwiperSlide key={idx}>
             <div className='grid grid-cols-2 grid-rows-2 gap-4 cursor-pointer'>
               {slide.datas.map((item, index) => (
-                <Link href={`/work/${idx}/${item.id}`}>
+                <Link href={`/products/${idx}/${item.id}`}>
                   <div key={index} className='relative rounded-lg overflow-hidden flex items-center justify-center group'>
                     <div className='flex items-center justify-center relative overflow-hidden group'>
                       <Image src={item.image} width={500} height={200} alt='' />
