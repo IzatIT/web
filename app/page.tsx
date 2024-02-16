@@ -5,12 +5,13 @@ import Avatar from 'components/open-part/avatar'
 import { motion } from 'framer-motion'
 import { fadeIn } from 'variants'
 import ProjectsBtn from 'components/open-part/project-btn'
+import Link from 'next/link'
 
 const Home = () => {
   return (
     <div className="bg-primary/60 h-full">
       <div className="w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10">
-        <div className="text-center flex flex-col justify-center  xl:pt-40 xl:text-left h-full container mx-auto">
+        <div className="text-center flex flex-col justify-center  xl:pt-20 xl:text-left h-full container mx-auto">
           <motion.h1
             variants={fadeIn('down', 0.2)}
             initial='hidden'
@@ -30,7 +31,9 @@ const Home = () => {
             [описание ожидаемых результатов].
           </motion.p>
           <div className="flex justify-center xl:hidden relative">
-            <ProjectsBtn />
+            <Link className='relative z-50' href="/work">
+              <ProjectsBtn />
+            </Link>
           </div>
           <motion.div
             className="hidden xl:flex"
@@ -38,7 +41,9 @@ const Home = () => {
             initial='hidden'
             animate='show'
             exit='hidden'>
-            <ProjectBtn />
+            <Link className='relative z-50' href="/work">
+              <ProjectBtn />
+            </Link>
           </motion.div>
         </div>
       </div>
@@ -52,7 +57,7 @@ const Home = () => {
           animate='show'
           exit='hidden'
           transition={{ duration: 1, ease: 'easeInOut' }}
-          className="w-full h-full max-w-[737px] max-h-[678px] absolute -bottom-32 lg:bottom-0 lg:right-[8%]">
+          className="w-full h-full max-w-[437px] max-h-[378px] absolute -bottom-32 lg:bottom-0 lg:right-[8%]">
           <Avatar />
         </motion.div>
       </div>

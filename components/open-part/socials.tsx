@@ -12,18 +12,18 @@ import { IoLocationOutline } from 'react-icons/io5'
 
 const Socials = () => {
   return (
-    <div className="flex items-center gap-x-5 text-lg mr-12">
+    <div className="flex items-center gap-x-5 text-lg md:mr-12">
       <Link href={'https://www.facebook.com/profile.php?id=61555034791155&mibextid=ZbWKwL'} className="hover:text-accent transition-all duration-300">
-        <RiFacebookLine />
+        <RiFacebookLine size={30} />
       </Link>
       <Link href={'https://www.instagram.com/star_line2024?igsh=MTc1NG1zMnUyYnM0eQ=='} className="hover:text-accent transition-all duration-300">
-        <RiInstagramLine />
+        <RiInstagramLine size={30} />
       </Link>
       <Link href={'https://wa.me/996999933988'} className="hover:text-accent transition-all duration-300">
-        <RiWhatsappLine />
+        <RiWhatsappLine size={30} />
       </Link>
       <Link href={'https://maps.app.goo.gl/g7EqCxq4t3cnanMg7'} className="hover:text-accent transition-all duration-300">
-        <IoLocationOutline />
+        <IoLocationOutline size={30} />
       </Link>
     </div>
   )

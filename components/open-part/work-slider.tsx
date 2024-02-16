@@ -37,7 +37,7 @@ const WorkSlider = () => {
                           <div className='items-center gap-x-2 text-[13px] tracking-[0.2em]'>
                             <div className='delay-100'>
                               Модель
-                              <div className='translate-y-[500%] text-3xl group-hover:translate-y-0 transition-all duration-300 delay-150'>
+                              <div className='translate-y-[500%] text-md md:text-3xl group-hover:translate-y-0 transition-all duration-300 delay-150'>
                                 {item.model}
                               </div>
                             </div>

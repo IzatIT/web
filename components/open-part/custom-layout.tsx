@@ -3,7 +3,7 @@ import { Sora } from '@next/font/google'
 import Nav from 'components/open-part/nav'
 import Header from 'components/open-part/header';
 import TopLeftImg from 'components/open-part/top-left-img';
-import { AnimatePresence, motion } from 'framer-motion'
+import { motion } from 'framer-motion'
 import Transition from 'components/open-part/transition';
 import { usePathname } from 'next/navigation';
 import "styles/globals.css"
@@ -26,12 +26,10 @@ export default function CustomLayout({
             <TopLeftImg />
             <Nav />
             <Header />
-            <AnimatePresence mode='wait'>
-                <motion.div key={pathname} className='h-full'>
-                    <Transition />
-                    {children}
-                </motion.div>
-            </AnimatePresence>
+            <motion.div key={pathname} className='h-full'>
+                <Transition />
+                {children}
+            </motion.div>
         </div >
     )
 }

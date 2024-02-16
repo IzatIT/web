@@ -1,10 +1,13 @@
 "use client"
-import Image from 'next/image'
+
+import { Image } from "@mantine/core";
 
 const Avatar = () => {
   return (
     <div className='hidden xl:flex xl:max-w-none'>
-      <Image src={'/avatar1.png'} width={737} height={678} alt=''
+      <Image style={{
+        filter: "contrast(180%) brightness(1.2)",
+      }} src={'/avatar1.png'} w={500} alt=''
         className='translate-z-0 w-full h-full ' />
     </div>
   )

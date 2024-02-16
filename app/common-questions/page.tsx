@@ -14,7 +14,7 @@ const CommonQuestions = () => {
           {
             commonQuestions.map(el => (
               <Accordion.Item value={el.question}>
-                <Accordion.Control py={5}>
+                <Accordion.Control py={12}>
                   <h1 className='text-white text-xl'>{el.question}</h1>
                 </Accordion.Control>
                 <Accordion.Panel>
