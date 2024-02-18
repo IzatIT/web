@@ -32,7 +32,7 @@ export default function RootLayout({
         <meta property='og:title' content="Капсульный дом STARLINE" />
         <meta property='og:description' content="Впервые в Кыргызстане капсула домики высокого качества. Изготовливаем из высоких материалов и со всеми условиями под заказ и в наличии" />
         <meta property='og:image' content="/2.jpg" />
-        <meta name="keywords" content="капсула, кыргызстан, дом, домики, дом на колесах, бишкек, купить капсулу, клемпинг бишкек, клемпинг кыргызстан" />
+        <meta name="keywords" content="капсула, капсульные домики кыргызстан, дом, домики, дом на колесах, бишкек, купить капсулу, клемпинг бишкек, клемпинг кыргызстан" />
         <meta name="google-site-verification" content="-tLDpD5eU80CYi37d_3SrRZyJn_CMyzYe_ZS-X48kWw" />
         <title>StarLine</title>
       </head>
