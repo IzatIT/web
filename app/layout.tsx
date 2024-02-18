@@ -15,9 +15,27 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+        <meta name="title" content="Капсульный дом STARLINE" />
+        <meta name="description" content="Впервые в Кыргызстане капсула домики высокого качества. Изготовливаем из высоких материалов и со всеми условиями под заказ и в наличии" />
+        <link rel="canonical" href="{{canonical}}" />
+
+        <link rel="alternate" href="{{ruLink}}" hrefLang="ru" />
+        <link rel="alternate" href="{{ruLink}}" hrefLang="x-default" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Капсульный дом STARLINE" />
+        <meta name="twitter:description" content="Впервые в Кыргызстане капсула домики высокого качества. Изготовливаем из высоких материалов и со всеми условиями под заказ и в наличии" />
+        <meta name="twitter:image" content="/2.jpg" />
+
+        <meta property='og:url' content="" />
+        <meta property='og:type' content="website" />
+        <meta property='og:title' content="Капсульный дом STARLINE" />
+        <meta property='og:description' content="Впервые в Кыргызстане капсула домики высокого качества. Изготовливаем из высоких материалов и со всеми условиями под заказ и в наличии" />
+        <meta property='og:image' content="/2.jpg" />
+        <meta name="keywords" content="капсула, кыргызстан, дом, домики, дом на колесах, бишкек, купить капсулу, клемпинг бишкек, клемпинг кыргызстан" />
+        <meta name="google-site-verification" content="-tLDpD5eU80CYi37d_3SrRZyJn_CMyzYe_ZS-X48kWw" />
         <title>StarLine</title>
-        <meta name="keywords" content="capsula kg" />
-        <meta name="google-site-verification" content="-tLDpD5eU80CYi37d_3SrRZyJn_CMyzYe_ZS-X48kWw" />      </head>
+      </head>
       <body>
         <CustomLayout>
           <Providers>
